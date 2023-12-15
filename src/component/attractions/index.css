@@ -1,0 +1,32 @@
+.attractions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attractions__header {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 16px;
+}
+
+.attractions__value {
+    font-size: 42px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+.attractions__list {
+    display: grid;
+    gap: 12px;
+}
+
+.attractions__list-item {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    gap: 12px;
+}
